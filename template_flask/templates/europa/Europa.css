@@ -3,3 +3,15 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
   }
+  .immagine-animata {
+    display: none;
+  }
+  
+  .immagine-cliccabile:hover .immagine-animata {
+    display: block;
+  }
+  
+  .immagine-cliccabile:hover img:not(.immagine-animata) {
+    display: none;
+  }
+   
