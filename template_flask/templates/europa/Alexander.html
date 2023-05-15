@@ -1,114 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
     <title>Alessandro Magno</title>
     <style>
         body {
+            background-color: #333333;
+            color: #ffffff;
             font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            margin: 0;
-            padding: 0;
-        }
-
-        .header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-
-        h1 {
             margin: 0;
         }
-
-        .content {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        
+        #container {
+            display: flex;
         }
-
-        .image {
+        
+        #image {
+            flex: auto;
+            background-image: url("statuaAlexander.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            opacity: 0.8;
+        }
+        
+        #content {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #title {
             text-align: center;
             margin-bottom: 20px;
         }
-
-        img {
-            max-width: 100%;
-            height: auto;
+        
+        h1 {
+            font-size: 32px;
         }
-
-        p {
-            line-height: 1.5;
-            margin-bottom: 15px;
+        
+        .achievement {
+            margin-bottom: 10px;
+        }
+        
+        .achievement a {
+            color: #ffffff;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>Alessandro Magno</h1>
+    <div id="container">
+        <div id="image"></div>
+        <div id="content">
+            <h1>ALESSANDRO MAGNO</h1>
+            <div class="achievement">
+                <a href="introduzione.html">Introduzione</a>
+            </div>
+            <div class="achievement">
+                <a href="conquista1.html">Conquista 1</a>
+            </div>
+            <div class="achievement">
+                <a href="conquista2.html">Conquista 2</a>
+            </div>
+            <div class="achievement">
+                <a href="conquista3.html">Conquista 3</a>
+            </div>
+            <!-- Aggiungi altre conquiste qui -->
+        </div>
     </div>
-
-    <div class="content">
-        <div class="image">
-            <img src="Alexander.png" alt="Alessandro Magno">
-        </div>
-
-        <p>Alexander normalmente tenterà una vittoria diplomatica o di dominio.
-            Alexander è molto audace e spesso ostile, e probabilmente dichiarerà guerra a ogni civiltà che incontra.
-            Ad Alexander piace costruire un forte esercito composto principalmente da fanteria e unità in rapido movimento, come Cavalieri e Carri armati.
-            Alexander è spesso protettivo nei confronti delle città-stato e non tenterà quasi mai di conquistarle. Diventerà ostile se il giocatore sta intrattenendo rapporti con città-stato alleate con lui.
-            Alexander cercherà di costruire molte meraviglie.
-            I giocatori che sono guerrafondai possono effettivamente andare d'accordo con Alexander. Corrompendolo per combattere altre civiltà, possono avere uno stretto alleato, purché non attacchino le città-stato
-    </p>
-
-        <div class="image">
-            <img src="alessandro-1.jpg" alt="Battaglia di Gaugamela">
-        </div>
-
-        <p>Alessandro il Macedone è senza dubbio uno dei più grandi signori della guerra di tutti i tempi. In 17 brevi anni ha marciato il suo esercito verso la vittoria dopo la vittoria attraverso l'Europa, l'Asia, l'Africa e il Medio Oriente, conquistando ogni civiltà che poteva raggiungere.
-            Primi anni di vita
-            Alessandro era il figlio del re Filippo II,
-            un re e signore della guerra di grande successo che aveva restaurato il suo regno dall'orlo dell'estinzione e poi aveva portato il suo popolo al trionfo conquistando Atene, Illiria e Tracia - le tre potenze che, pochi anni prima, erano state sul punto di conquistare Macedonia. In quanto figlio del monarca più potente del mondo "civilizzato",
-            Alexander ha avuto il meglio di tutto, compresa l'istruzione: lo studioso Aristotele, il grande pensatore della civiltà occidentale, era il suo tutore.
-            Insegnato da sua madre Olimpia che discendeva da Ercole e Achille, ad Alessandro non mancava la fiducia in se stesso, anche in tenera età.
-            All'età di 14 anni Filippo lo lasciò al comando della Macedonia mentre era via ad attaccare Bisanzio; Alexander ha schiacciato una ribellione tracia durante l'assenza di suo padre. Due anni dopo comandò l'ala sinistra dell'esercito di suo padre durante la battaglia in cui le forze di Filippo sconfissero gli stati greci alleati e conquistarono tutta la Grecia.
-            L'anno successivo la fortuna di Alessandro lo abbandonò, almeno per un po'. Il re Filippo divorziò dalla madre di Alessandro per una donna di nome "Cleopatra Euridice", e madre e figlio fuggirono dalla Macedonia. Alessandro e suo padre si riconciliarono qualche tempo dopo,
-            ma la posizione di Alessandro come erede di Filippo sarebbe stata in grave pericolo se Filippo non fosse opportunamente morto prima di dare alla luce un altro figlio.
-            Ascesa al potere
-            Dopo la conquista della Grecia e dei Balcani, il re Filippo aveva lavorato alla costruzione di un esercito per invadere e conquistare la Persia. Nel 336 Filippo fu assassinato dal capitano della sua guardia del corpo
-            , Pausania, mentre assisteva al matrimonio di sua figlia. (Alcuni credono che la madre di Alessandro, Olimpia - o addirittura lo stesso Alessandro - fosse dietro l'assassinio, ma poiché Pausania morì opportunamente durante l'omicidio non c'erano prove effettive.) All'età di vent'anni Alessandro fu proclamato re dall'esercito e dalla nobiltà macedone.
-            Ha celebrato la sua vittoria uccidendo tutti i potenziali rivali al trono, quindi ha ripreso a pianificare l'invasione interrotta di suo padre in Persia.
-            La creazione di un impero
-            La forza di Alessandro era composta da 30.000 fanti e 5.000 cavalieri, un enorme esercito per la giornata, ed era accompagnata da ingegneri, geometri, scienziati e persino storici.
-            In battaglia Alessandro ebbe un incredibile successo contro i persiani. Ha ripetutamente battuto i loro migliori soldati, combattendo regolarmente contro probabilità di 10 a 1. Il suo successo può essere attribuito al suo genio militare, al superbo addestramento e equipaggiamento della sua forza e al loro magnifico spirito di corpo, in gran parte generato dalla loro fede nell'invincibilità di Alessandro.
-            Alexander sembrava essere senza paura. Di solito guidava personalmente l'élite della cavalleria macedone nel bel mezzo della battaglia e durante la sua carriera militare ricevette una serie di ferite pericolose, nessuna delle quali smorzò il suo ardore militare.
-            Dopo essersi assicurato la resa della Persia, Alessandro si spostò poi a sud, conquistando la Siria, la Palestina,
-            gran parte dell'Iraq moderno, e infine lo stesso Egitto. Tornò in Persia, distrusse l'ultima delle forze persiane e conquistò l'intero paese. Continuò verso est, entrando infine in contatto con il grande re indiano Porus, che lo combatté fino all'arresto. Alessandro alla fine vinse il conflitto,
-            ma a un costo così alto che i suoi uomini lo pregarono di porre fine alla campagna e lasciarli tornare alle loro famiglie. Lo stesso Alessandro tornò a governare il suo impero dalla città catturata di Babilonia.
-            La caduta di Alessandro
-            In otto brevi anni di combattimenti, Alessandro aveva conquistato più territorio di qualsiasi altro essere vivente.
-            Condusse con successo le sue forze in battaglia contro tutte le grandi nazioni dell'epoca, ma nessuna poteva resistergli. Era il sovrano assoluto del più grande impero che il mondo avesse mai visto.
-            Apparentemente lo trovava noioso.
-            Una volta a Babilonia, Alessandro iniziò un inesorabile declino.
-            Iniziò a bere molto e ad impegnarsi in tutti i tipi di dissolutezza disponibili (e c'era molta dissolutezza a Babilonia). Divenne soggetto ad attacchi di rabbia e attacchi di delusione paranoica. Una notte, in uno stato di rabbia cieca e sotto l'effetto dell'alcol, Alessandro uccise Clito, il suo più stretto collaboratore.
-            Questo atto barbaro avrebbe perseguitato Alexander per il resto della sua vita, che non fu molto lunga.
-            Nel giugno del 323 aC, il suo corpo indebolito dai suoi eccessi, Alessandro morì di malaria. Aveva 32 anni.
-            Giudizio della storia
-            "Quando Alessandro vide l'ampiezza del suo dominio, pianse perché non c'erano più mondi da conquistare."
-            Quest'uomo straordinario (e suo padre prima di lui) ha conquistato la Grecia, i Balcani, l'Asia Minore, la Siria, l'Egitto, la Persia e l'Asia fino all'Afghanistan. Il suo impero non sopravvisse a lungo alla morte di Alessandro - era semplicemente troppo grande per essere tenuto da qualsiasi semplice mortale - ed era diviso tra un certo numero di generali di Alessandro.
-            Ma le conquiste di Alessandro permisero alla cultura ellenica di diffondersi in gran parte del mondo conosciuto, e il greco sarebbe diventato la lingua della cultura, dell'arte e della scienza per i secoli a venire.
-            Con l'eccezione forse di uno o due leader religiosi, nessun singolo uomo ha avuto un così grande effetto sulla civiltà occidentale come ha fatto Alessandro Magno.
-    </p>
-
-        <div class="image">
-            <img src="path_to_image3.jpg" alt="Mappa dell'Impero di Alessandro Magno">
-        </div>
-
-        <p>L'Impero di Alessandro si estendeva dall'Egitto all'India, ed è stato un periodo di grande scoperta e scambio culturale noto come l'Era ellenistica. Alessandro morì nel 323 a.C., all'età di soli 32 anni, ma il suo impatto sul mondo antico è stato duraturo e significativo.</p>
-    </div>
-    
 </body>
 </html>
